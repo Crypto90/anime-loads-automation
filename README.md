@@ -1,7 +1,7 @@
 # anime-loads-automation
 In dieser Repo finden sich allerlei nützliche Scripts um die Verwendung von https://github.com/Pfuenzle/anime-loads komplett zu automatisieren.
 
-Ich selbst lasse das Projekt von @Pfuenzle in einem Docker Container auf einer Synology DS415+ laufen. Alle Scripts liegen außerhalb des Containers.
+Ich selbst lasse das Projekt von @Pfuenzle in einem Docker Container auf einer Synology DS415+ laufen. Alle Scripts liegen außerhalb des Containers auf dem selben System.
 
 
 **Falls jemand ein kleines Dankeschön in Form einer Spende hinterlassen möchte:**
