@@ -105,7 +105,7 @@ Nutzung:
 
 
 # moveFinishedAnimeDownloads.sh:
-Dieses Script untersucht den darin gesetzten Download Ordner Pfad auf fertige downloads.
+Dieses Script untersucht den darin gesetzten Download Ordner Pfad auf fertige downloads. Werden Download Ordner gefunden, wartet das Script mit dem verschieben, bis die neuste Datei ein letztes Änderungsdatum älter als 10 Minuten aufweist UND keine ```*.rar*```Archiv Datei mehr in dem Ordner enthalten ist.
 
 Ein Download Ordner hat immer das Format: ```TITEL LANGUAGE RESOLUTION TYPE```, z.B.:
 
