@@ -78,9 +78,28 @@ Editiere ```parseOverseerrRequestsAnimeMoviesAndSeries.py``` und passe die Overs
 ```OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"```
 
 
+Nutzung:
+
+```python3 parseOverseerrRequestsAnimeMoviesAndSeries.py```
+
 Dieses Script erstellt folgende Logs:
 
 ```downloading_and_monitoring.txt```: Für jeden erfolgreich durch ```download_anime.py``` hinzugefügten Titel wird ein Eintrag hinterlegt, der ein weiteres Hinzufügen des selben Titels verhindert.
 
 
+# parseAniSearchPopular20.py:
+Durchsucht anisearch.de um die "popular top 20" Deutschen Anime Titel zu parsen. Die gefundenen Titel werden mit https://github.com/sct/overseerr abgeglichen, ob dort selbiger Titel vefügbar ist und ob die mediaInfo einen gesetzen Wert für "plexUrl" hat. Falls nicht, wird die Anfrage an ```download_anime.py``` geleitet. Existiert bereits ein Eintrag in Overseerr mit gesetzer "PlexURL", wird die Anfrage übersprungen.
+
+Einrichtung:
+
+Editiere ```parseAniSearchPopular20.py```und passe den Overseer API KEY und URL an:
+
+OVERSEER_API_KEY = "YOUR_OVERSEERR_API_KEY_HERE"
+
+OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"
+
+
+Nutzung:
+
+```python3 parseAniSearchPopular20.py````
 
