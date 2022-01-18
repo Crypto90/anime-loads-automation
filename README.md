@@ -121,10 +121,13 @@ Durch dieses Format ist es möglich, die fertigen Downloads geziehlt zu einem ge
 # anime-loads-dl-manual.php:
 Eine kleine aber feine PHP Seite, die ermöglicht manuelle Anfragen an ```download_anime``` zu senden.
 
-Formular und Downloads Ordner Ansicht
+
+Formular und Downloads Ordner Ansicht:
 ![anime-loads-dl-manual.php Formular und Downloads Ordner Ansicht](https://raw.githubusercontent.com/Crypto90/anime-loads-automation/main/2022-01-18_11-54-40.png)
 
-Prozess Ausgabe (orange) und automatisierte Eingabe von ```download_anime.py``` (weiß). Und Ansicht der ani.json der docker config und Logs.
+
+
+Prozess Ausgabe (orange) und automatisierte Eingabe von ```download_anime.py``` (weiß). Und Ansicht der ani.json der docker config und Logs:
 ![anime-loads-dl-manual.php](https://raw.githubusercontent.com/Crypto90/anime-loads-automation/main/2022-01-18_14-14-09.png)
 
 
