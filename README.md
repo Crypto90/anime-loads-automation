@@ -171,3 +171,7 @@ Auf einer Synology NAS:
 
 Da sich bei mir diese Berechtigung für den http WebStation Nuter immer nach gewisser Zeit zurück gesetzt hat. Wird benötigt, damit das PHP Script auf der WebStation mit dem Docker Container kommunizieren kann und den ADD Befehl ausführt.
 
+
+**Alle 10 Minuten:**
+
+```runParseRequestedAnimeMoviesAndSeries.sh```
