@@ -94,9 +94,9 @@ Einrichtung:
 
 Editiere ```parseAniSearchPopular20.py```und passe den Overseer API KEY und URL an:
 
-OVERSEER_API_KEY = "YOUR_OVERSEERR_API_KEY_HERE"
+```OVERSEER_API_KEY = "YOUR_OVERSEERR_API_KEY_HERE"```
 
-OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"
+```OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"
 
 
 Nutzung:
