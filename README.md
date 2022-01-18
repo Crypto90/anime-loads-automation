@@ -161,4 +161,13 @@ Liegt im selben Ordner wie ```anime-loads-dl-manual.php``` und ist ein Helper-Sc
 # CRON JOBS:
 Ich habe folgende immer wiederkehrenden Aufgaben (Cron Jobs) definiert:
 
+**Alle 5 Minuten:**
+
+```moveFinishedAnimeDownloads.sh```
+
+Auf einer Synology NAS:
+
+```chmod 777 /var/run/docker.sock```
+
+Da sich bei mir diese Berechtigung für den http WebStation Nuter immer nach gewisser Zeit zurück gesetzt hat. Wird benötigt, damit das PHP Script auf der WebStation mit dem Docker Container kommunizieren kann und den ADD Befehl ausführt.
 
