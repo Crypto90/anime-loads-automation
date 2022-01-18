@@ -105,7 +105,7 @@ Nutzung:
 
 
 # moveFinishedAnimeDownloads.sh:
-Dieses Script untersucht den darin gesetzten Download Ordner Pfad auf fertige downloads. Werden Download Ordner gefunden, wartet das Script mit dem verschieben, bis die neuste Datei ein letztes Änderungsdatum älter als 10 Minuten aufweist UND keine ```*.rar*```Archiv Datei mehr in dem Ordner enthalten ist.
+Dieses Script untersucht den darin gesetzten Download Ordner Pfad auf fertige downloads. Werden Download Ordner gefunden, wartet das Script mit dem verschieben, bis die neuste Datei ein letztes Änderungsdatum älter als 10 Minuten aufweist UND keine ```*.rar*```Archiv Datei mehr in dem Ordner enthalten ist. Nach dem Verschieben wird die zugehörige Plex Library aktualisiert, hierzu kann ein Plex ACCESS KEY von einem Admin Login und die Section IDS der jeweiligen Library genutzt werden. Benötigt man diesen Plex Library Refresh nicht, können die wget Befehle für PLEX im Skript auskommentiert werden.
 
 Ein Download Ordner hat immer das Format: ```TITEL LANGUAGE RESOLUTION TYPE```, z.B.:
 
