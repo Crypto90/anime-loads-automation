@@ -103,3 +103,17 @@ Nutzung:
 
 ```python3 parseAniSearchPopular20.py````
 
+
+# moveFinishedAnimeDownloads.sh:
+Dieses Script untersucht den darin gesetzten Download Ordner Pfad auf fertige downloads.
+
+Ein Download Ordner hat immer das Format: ```TITEL LANGUAGE RESOLUTION TYPE```, z.B.:
+
+```Toller Anime Film Name german 1080p movie```
+
+oder
+
+```Toller Anime Serien Name german 1080p tv```
+
+Durch dieses Format ist es möglich, die fertigen Downloads geziehlt zu einem gewünschten Pfad zu verschieben (Pfade in der moveFinishedAnimeDownloads.sh editieren!).
+
