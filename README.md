@@ -10,13 +10,17 @@ Ein Wrapper Script welches den ADD Befehl von https://github.com/Pfuenzle/anime-
 
 
 Einrichtung:
+
 Editiere ```download_anime.py```und setze den Namen des laufenden Docker Conainers für https://github.com/Pfuenzle/anime-loads:
 
 RUNNING_DOCKER_CONTAINER="pfuenzle-anime-loads1"
 
+
+
 Nutzung:
 
 ```python3 download_anime.py "search_string" [LANGUAGE] [RESOLUTION] [FORCE_ANIME_RESULT_NUMBER] [FORCE_RELEASE_NUMBER] [DRY_RUN]```
+
 
 Zwingend benötigt:
 
