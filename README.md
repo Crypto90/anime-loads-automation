@@ -10,11 +10,11 @@ Ich selbst lasse das Projekt von @Pfuenzle in einem Docker Container auf einer S
 
 
 # Download:
-1. Lade alle Scripte herunter.
-2. Alle ```.py```und ```.sh```Scripte liegen in einem gemeinsamen Ordner. In meinem Fall in dem gesetzen Config Ordner für den anime-loads Docker Container, worin auch die ani.json geschrieben wird. Die zwei ```.php```Dateien kommen auf einen Webserver, welcher auf dem selben System wie der Docker Container läuft. In meinem Fall ist das die Synology WebStation.
+1. Lade alle Scripts herunter.
+2. Alle ```.py```und ```.sh``` Scripts liegen in einem gemeinsamen Ordner. In meinem Fall in dem gesetzen Config Ordner für den anime-loads Docker Container, worin auch die ani.json geschrieben wird. Die zwei ```.php```Dateien kommen auf einen Webserver, welcher auf dem selben System wie der Docker Container läuft. In meinem Fall ist das die Synology WebStation.
 
 
-Die Scripte unterteilen sich auf folgende Aufgaben:
+Die Scripts unterteilen sich auf folgende Aufgaben:
 
 
 # download_anime.py:
