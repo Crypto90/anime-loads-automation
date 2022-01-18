@@ -10,7 +10,7 @@ Ich selbst lasse das Projekt von @Pfuenzle mitsamt all meiner Scripte in einem D
 
 
 
-** Die Scripte unterteilen sich auf folgende Aufgaben:**
+Die Scripte unterteilen sich auf folgende Aufgaben:
 
 
 # download_anime.py:
