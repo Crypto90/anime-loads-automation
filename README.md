@@ -3,6 +3,12 @@ In dieser Repo finden sich allerlei nützliche Scripts um die Verwendung von htt
 
 Ich selbst lasse das Projekt von @Pfuenzle mitsamt all meiner Scripte in einem Docker Container auf einer Synology DS415+ laufen.
 
+
+Falls jemand ein kleines Dankeschön in Form einer Spende hinterlassen möchte:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K314GUP)
+
+
 Die Scripte unterteilen sich auf folgende Aufgaben:
 
 # download_anime.py:
