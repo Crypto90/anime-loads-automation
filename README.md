@@ -130,7 +130,7 @@ Hierfür musste ich auf der Synology DSM folgenden Befehl ausführen:
 
 Damit der http User der WebStation der Synology, worin die PHP Datei liegt, mit dem Docker Socket und darüber mit dem Anime-Loads Container kommunizieren kann.
 
-Zusätzlich habe ich für die WebStation die open_basedir angepasst, damit die WebStation auch in den Download und in den Ordner worin die anderen Scripts alle liegen, zugreifen darf:
+Zusätzlich habe ich für die WebStation die open_basedir angepasst, damit die WebStation auch in den Download und in den Ordner worin die anderen Python und Shell Scripts alle liegen, zugreifen darf:
 
 ![WebStation Synology Einstellungen](https://raw.githubusercontent.com/Crypto90/anime-loads-automation/main/2022-01-18_14-09-33.png)
 
