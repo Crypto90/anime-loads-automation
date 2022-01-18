@@ -73,7 +73,7 @@ Einrichtung:
 
 Editiere ```parseOverseerrRequestsAnimeMoviesAndSeries.py``` und passe die Overseerr Angaben an:
 
-OVERSEER_API_KEY = "YOUR_OVERSEERR_API_KEY_HERE"
+```OVERSEER_API_KEY = "YOUR_OVERSEERR_API_KEY_HERE"```
 
-OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"
+```OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"```
 
