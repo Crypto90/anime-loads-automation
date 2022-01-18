@@ -175,3 +175,10 @@ Da sich bei mir diese Berechtigung für den http WebStation Nuter immer nach gew
 **Alle 10 Minuten:**
 
 ```runParseRequestedAnimeMoviesAndSeries.sh```
+
+
+**Jede Stunde:**
+
+```runAnisearchTop20Parser.sh```
+
+
