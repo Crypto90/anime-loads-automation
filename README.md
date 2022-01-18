@@ -80,7 +80,7 @@ Editiere ```parseOverseerrRequestsAnimeMoviesAndSeries.py``` und passe die Overs
 
 Nutzung:
 
-```python3 parseOverseerrRequestsAnimeMoviesAndSeries.py```
+```python3 parseRequestedAnimeMoviesAndSeries.py```
 
 Dieses Script erstellt folgende Logs:
 
