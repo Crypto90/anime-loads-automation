@@ -132,7 +132,7 @@ Einrichtung:
 
 Lade die zwei PHP Dateien auf einen Webserver welcher auf dem selben System wie der Docker Container läuft (in meinem Fall die Synology WebStation).
 
-Editiere Beide Dateien und Konfiguriere:
+Editiere Beide Dateien und Konfiguriere die Pfade entsprechend für dein Setup:
 
 ```$pathDownloadsFolder = '/volume1/Downloads';
 	$pathManualOutputLog = '/volume1/docker-configs/anime-loads/manualOutput.log';
@@ -142,7 +142,7 @@ Editiere Beide Dateien und Konfiguriere:
 	$pathNoReleasesFound = '/volume1/docker-configs/anime-loads/no_releases_found_log.txt';
 ```
 
-Hierfür musste ich auf der Synology DSM folgenden Befehl ausführen:
+Ich musste ich auf der Synology DSM folgenden Befehl ausführen:
 
 ```chmod 777 /var/run/docker.sock```
 
