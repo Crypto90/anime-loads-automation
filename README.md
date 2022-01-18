@@ -77,6 +77,7 @@ Editiere ```parseOverseerrRequestsAnimeMoviesAndSeries.py``` und passe die Overs
 
 ```OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"```
 
+
 Dieses Script erstellt folgende Logs:
 
 ```downloading_and_monitoring.txt```: Für jeden erfolgreich durch ```download_anime.py``` hinzugefügten Titel wird ein Eintrag hinterlegt, der ein weiteres Hinzufügen des selben Titels verhindert.
