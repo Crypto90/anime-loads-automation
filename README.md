@@ -121,6 +121,9 @@ Durch dieses Format ist es möglich, die fertigen Downloads geziehlt zu einem ge
 # anime-loads-dl-manual.php:
 Eine kleine aber feine PHP Seite, die ermöglicht manuelle Anfragen an ```download_anime``` zu senden.
 
+
+![anime-loads-dl-manual.php](https://raw.githubusercontent.com/Crypto90/anime-loads-automation/main/2022-01-18_11-54-40.png)
+
 Hierfür musste ich auf der Synology DSM folgenden Befehl ausführen:
 
 ```chmod 777 /var/run/docker.sock```
