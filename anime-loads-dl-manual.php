@@ -187,11 +187,11 @@ if(($user == $WEB_USER && $pass == $WEB_PASSWORD) || ($userGET == $WEB_USER && $
     
     
     <br>
-    
-    <a style="display: inline-block;" class="btn btn-danger" href="anime-loads-dl-manual.php?action=logout">Logout</a>
-    	<div>
-		<div style="width: 1024px; margin: 30px auto; position: relative; display: inline-block;">
-    	</div>
+    <div>
+	    <a style="display: inline-block;" class="btn btn-danger" href="anime-loads-dl-manual.php?action=logout">Logout</a>
+    </div>
+
+    <div style="width: 1024px; margin: 30px auto; position: relative; display: inline-block;">
     	<div style="width: 460px; border: 1px solid grey; padding: 20px; display: block; float: left;">
 			<form method="POST" action="anime-loads-dl-manual.php">
 				<div class="mb-3" style="text-align: left;">
