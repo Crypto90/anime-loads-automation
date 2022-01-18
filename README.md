@@ -117,3 +117,16 @@ oder
 
 Durch dieses Format ist es möglich, die fertigen Downloads geziehlt zu einem gewünschten Pfad zu verschieben (Pfade in der moveFinishedAnimeDownloads.sh editieren!).
 
+
+# anime-loads-dl-manual.php:
+Eine kleine aber feine PHP Seite, die ermöglicht manuelle Anfragen an ```download_anime``` zu senden.
+
+Hierfür musste ich auf der Synology DSM folgenden Befehl ausführen:
+
+```chmod 777 /var/run/docker.sock```
+
+Damit der http User der WebStation der Synology, worin die PHP Datei liegt, mit dem Docker Socket und darüber mit dem Anime-Loads Container kommunizieren kann.
+
+# echo_the_content.php
+Liegt im selben Ordner wie ```anime-loads-dl-manual.php``` und ist ein Helper-Script um die Log Dateien und den Inhalt des Download Ordners visuall in ```anime-loads-dl-manual.php``` darzustellen.
+
