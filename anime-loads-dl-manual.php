@@ -172,7 +172,7 @@ $passGET = $_GET['pass'];
 
 if(($user == $WEB_USER && $pass == $WEB_PASSWORD) || ($userGET == $WEB_USER && $passGET == $WEB_PASSWORD) || ($_SESSION['user'] == $WEB_USER && $_SESSION['pass'] == $WEB_PASSWORD))
 {
-	$_SESSION['user'] = $WEB_USER;
+    $_SESSION['user'] = $WEB_USER;
     $_SESSION['pass'] = $WEB_PASSWORD;
     
     
@@ -189,8 +189,9 @@ if(($user == $WEB_USER && $pass == $WEB_PASSWORD) || ($userGET == $WEB_USER && $
     <br>
     
     <a style="display: inline-block;" class="btn btn-danger" href="anime-loads-dl-manual.php?action=logout">Logout</a>
-    <div style="width: 1024px; margin: 30px auto; position: relative; display: inline-block;">
-    	
+    	<div>
+		<div style="width: 1024px; margin: 30px auto; position: relative; display: inline-block;">
+    	</div>
     	<div style="width: 460px; border: 1px solid grey; padding: 20px; display: block; float: left;">
 			<form method="POST" action="anime-loads-dl-manual.php">
 				<div class="mb-3" style="text-align: left;">
@@ -204,7 +205,7 @@ if(($user == $WEB_USER && $pass == $WEB_PASSWORD) || ($userGET == $WEB_USER && $
 					</select>
 			
 					<label for="resolutionselect" class="form-label">Aufl&ouml;sung:</label>
-					<select class="form-select" id="resolutionselect" name="resolutionselect" aria-label="Auflösung">
+					<select class="form-select" id="resolutionselect" name="resolutionselect" aria-label="AuflÃ¶sung">
 						<option value="1080p" <?php echo (!isset($_POST['resolutionselect']) || $_POST['resolutionselect'] == '1080p' ? 'selected' : '') ?>>1080p</option>
 						<option value="720p" <?php echo ($_POST['resolutionselect'] == '720p' ? 'selected' : '') ?>>720p</option>
 					</select> 
