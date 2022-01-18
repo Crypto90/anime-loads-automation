@@ -51,5 +51,6 @@ Download, Sprache Japanisch, 720p, 2. Ergebnis für Titel und 4. Release wählen
 Download, Sprache Deutsch, 1080p, automatisch 1. Ergebnis Titel und 1. Release wählen:
 
 ```python3 download_anime.py "search_string" german```
+
 ```python3 download_anime.py "search_string" ger```
 
