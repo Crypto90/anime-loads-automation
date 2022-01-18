@@ -101,7 +101,7 @@ Editiere ```parseAniSearchPopular20.py```und passe den Overseer API KEY und URL 
 
 Nutzung:
 
-```python3 parseAniSearchPopular20.py````
+```python3 parseAniSearchPopular20.py```
 
 
 # moveFinishedAnimeDownloads.sh:
