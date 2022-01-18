@@ -140,6 +140,7 @@ Editiere Beide Dateien und Konfiguriere:
 	$pathAniJson = '/volume1/docker-configs/anime-loads/ani.json';
 	$pathDownloadAndMonitoring = '/volume1/docker-configs/anime-loads/downloading_and_monitoring.txt';
 	$pathNoReleasesFound = '/volume1/docker-configs/anime-loads/no_releases_found_log.txt';
+```
 
 Hierfür musste ich auf der Synology DSM folgenden Befehl ausführen:
 
