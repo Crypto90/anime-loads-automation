@@ -36,3 +36,20 @@ Optional:
 
 Die Reihenfolge der Parameter ist wichtig und deren Anzahl! Will man für ```[FORCE_ANIME_RESULT_NUMBER]``` die ```1``` setzen, muss der vorherige Parameter ```[RESOLUTION]``` auch angegeben werden, z.B. ```1080p```.
 
+
+
+Beispiel:
+
+Dry run ohne Download, Sprache Deutsch, 1080p, automatisch 1. Ergebnis Titel und 1. Release wählen:
+
+```python3 download_anime.py "search_string" german 1080p 0 0 1```
+
+Download, Sprache Japanisch, 720p, 2. Ergebnis für Titel und 4. Release wählen:
+
+```python3 download_anime.py "search_string" japanese 720p 2 4 0```
+
+Download, Sprache Deutsch, 1080p, automatisch 1. Ergebnis Titel und 1. Release wählen:
+
+```python3 download_anime.py "search_string" german```
+```python3 download_anime.py "search_string" ger```
+
