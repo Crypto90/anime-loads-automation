@@ -127,6 +127,20 @@ Formular und Downloads Ordner Ansicht
 Prozess Ausgabe (orange) und automatisierte Eingabe von ```download_anime.py``` (weiß). Und Ansicht der ani.json der docker config und Logs.
 ![anime-loads-dl-manual.php](https://raw.githubusercontent.com/Crypto90/anime-loads-automation/main/2022-01-18_14-14-09.png)
 
+
+Einrichtung:
+
+Lade die zwei PHP Dateien auf einen Webserver welcher auf dem selben System wie der Docker Container läuft (in meinem Fall die Synology WebStation).
+
+Editiere Beide Dateien und Konfiguriere:
+
+```$pathDownloadsFolder = '/volume1/Downloads';
+	$pathManualOutputLog = '/volume1/docker-configs/anime-loads/manualOutput.log';
+	$pathAniJson = '/volume1/docker-configs/anime-loads/ani.json';
+	$pathAniJson = '/volume1/docker-configs/anime-loads/ani.json';
+	$pathDownloadAndMonitoring = '/volume1/docker-configs/anime-loads/downloading_and_monitoring.txt';
+	$pathNoReleasesFound = '/volume1/docker-configs/anime-loads/no_releases_found_log.txt';
+
 Hierfür musste ich auf der Synology DSM folgenden Befehl ausführen:
 
 ```chmod 777 /var/run/docker.sock```
