@@ -66,7 +66,7 @@ Download, Sprache Deutsch, 1080p, automatisch 1. Ergebnis Titel und 1. Release w
 
 
 # parseOverseerrRequestsAnimeMoviesAndSeries.py:
-Falls https://github.com/sct/overseerr für Requests genutzt wird, kann dieses Script die noch offenen (und genehmigten) Requests von der Overseerr API abfragen und diese Requests auf (Genre=Animation und Originalsprache=Japanisch) oder (Keyword=anime) filten. Die gefundenen Titel werden dann versucht mittels "download_anime.py" zuerst in 1080p german und falls nicht gefunden in 1080p Japanisch gesucht und geladen.
+Falls https://github.com/sct/overseerr für Requests genutzt wird, kann dieses Script die noch offenen (und genehmigten) Requests von der Overseerr API abfragen und diese Requests auf (Genre=Animation und Originalsprache=Japanisch) oder (Keyword=anime) filten. Die gefundenen Titel werden dann versucht mittels ```download_anime.py``` zuerst in 1080p german und falls nicht gefunden in 1080p Japanisch gesucht und geladen.
 
 
 Einrichtung:
@@ -76,4 +76,10 @@ Editiere ```parseOverseerrRequestsAnimeMoviesAndSeries.py``` und passe die Overs
 ```OVERSEER_API_KEY = "YOUR_OVERSEERR_API_KEY_HERE"```
 
 ```OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"```
+
+Dieses Script erstellt folgende Logs:
+
+```downloading_and_monitoring.txt```: Für jeden erfolgreich durch ```download_anime.py``` hinzugefügten Titel wird ein Eintrag hinterlegt, der ein weiteres Hinzufügen des selben Titels verhindert.
+
+
 
