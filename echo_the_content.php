@@ -4,12 +4,15 @@
 	//how to use:
 	//this is a small helper php script to get the content of log files
 	//and to monitor the downloads foldee to show whats happening on anime-loads-dl-manual.php
+	
+	//TO EDIT:
 	$pathDownloadsFolder = '/volume1/Downloads';
 	$pathManualOutputLog = '/volume1/docker-configs/anime-loads/manualOutput.log';
 	$pathAniJson = '/volume1/docker-configs/anime-loads/ani.json';
 	$pathAniJson = '/volume1/docker-configs/anime-loads/ani.json';
 	$pathDownloadAndMonitoring = '/volume1/docker-configs/anime-loads/downloading_and_monitoring.txt';
 	$pathNoReleasesFound = '/volume1/docker-configs/anime-loads/no_releases_found_log.txt';
+	//EDIT END
 	
 	//
 	// Converts Bashoutput to colored HTML
