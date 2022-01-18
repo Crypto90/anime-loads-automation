@@ -130,3 +130,9 @@ Damit der http User der WebStation der Synology, worin die PHP Datei liegt, mit 
 # echo_the_content.php
 Liegt im selben Ordner wie ```anime-loads-dl-manual.php``` und ist ein Helper-Script um die Log Dateien und den Inhalt des Download Ordners visuall in ```anime-loads-dl-manual.php``` darzustellen.
 
+
+
+# CRON JOBS:
+Ich habe folgende immer wiederkehrenden Aufgaben (Cron Jobs) definiert:
+
+
