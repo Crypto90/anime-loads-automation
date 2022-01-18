@@ -79,6 +79,7 @@ if len(sys.argv) >= 7 and int(sys.argv[6]) > 0:
 
 def threadSelectRelease():
     global RELEASE_ID_TO_DOWNLOAD
+    global p
     time.sleep(5)
     if len(sys.argv) >= 6 and int(sys.argv[5]) > 0:
         RELEASE_ID_TO_DOWNLOAD = int(sys.argv[5])
