@@ -15,24 +15,24 @@ Nutzung:
 
 Zwingend benötigt:
 
-"search_string" = Sucht nach dem Titel auf anime-loads.org
+```"search_string"``` = Sucht nach dem Titel auf anime-loads.org
 
-[LANGUAGE] = german, ger, japanese oder jap
+```[LANGUAGE]``` = ```german```, ```ger```, ```japanese``` oder ```jap```
 
 Standard RESOLUTION wird immer 1080p ausgewählt.
 
 
 Optional:
 
-[RESOLUTION] = 1080p (standard) oder 720p
+```[RESOLUTION]``` = ```1080p``` (standard) oder ```720p```
 
-[FORCE_ANIME_RESULT_NUMBER] = 2 (um z.B. den 2. Ergebnisse Treffer für einen Anime Filme oder Serien Titel auszuwählen). 0: deaktiviert.
+```[FORCE_ANIME_RESULT_NUMBER]``` = ```2``` (um z.B. den 2. Ergebnisse Treffer für einen Anime Filme oder Serien Titel auszuwählen). ```0```: deaktiviert.
 
-[FORCE_RELEASE_NUMBER] = 2 (um z.B. den 2. Release Treffer für einen zuvor gewählten Titel auszuwählen). 0: deaktiviert.
+```[FORCE_RELEASE_NUMBER]``` = ```2``` (um z.B. den 2. Release Treffer für einen zuvor gewählten Titel auszuwählen). ```0```: deaktiviert.
 
-[DRY_RUN] = Der ADD Prozess läuft voll durch, alle Ausgaben und Inputs sind sichtbar. Gefundene Anime Titel Ergebnisse und Releases können eingesehen werden in der Ausgabe, jedoch wird KEIN DOWNLOAD ausgeführt. Das Script bricht vor dem Download ab!
+```[DRY_RUN]``` = ```1```: Der ADD Prozess läuft voll durch, alle Ausgaben und Inputs sind sichtbar. Gefundene Anime Titel Ergebnisse und Releases können eingesehen werden in der Ausgabe, jedoch wird KEIN DOWNLOAD ausgeführt. Das Script bricht vor dem Download ab! ```0```: deaktiviert.
 
 
 
-Die Reihenfolge der Parameter ist wichtig und deren Anzahl! Will man für "[FORCE_ANIME_RESULT_NUMBER]" die "1" setzen, muss der vorherige Parameter "[RESOLUTION]" auch angegeben werden, z.B. "1080p".
+Die Reihenfolge der Parameter ist wichtig und deren Anzahl! Will man für ```[FORCE_ANIME_RESULT_NUMBER]``` die ```1``` setzen, muss der vorherige Parameter ```[RESOLUTION]``` auch angegeben werden, z.B. ```1080p```.
 
