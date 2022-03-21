@@ -49,9 +49,9 @@ for d in $DOWNLOADS_DIRECTORY ; do
 			BASE_DIR=${BASE_DIR//" german 1080p tv"/}
 			BASE_DIR=${BASE_DIR//" german 720p tv"/}
 						
-			echo "moving folder: mv \"$d\" to \"$DESTINATION_PATH/$BASE_DIR\""
-			mv "$d" "$DESTINATION_PATH/$BASE_DIR"
-			mv "$d/"* "$DESTINATION_PATH/$BASE_DIR/" && rm -rf "$d"
+			echo "moving folder: mv \"$d\" to \"$DESTINATION_PATH1/$BASE_DIR\""
+			mv "$d" "$DESTINATION_PATH1/$BASE_DIR"
+			mv "$d/"* "$DESTINATION_PATH1/$BASE_DIR/" && rm -rf "$d"
 			
 			# after moving, refresh plex library: Anime (Ger)
 			wget -q "$PLEX_URL/library/sections/$PLEX_LIBRARY_ID_TO_REFRESH/refresh?X-Plex-Token=$PLEX_TOKEN" -O /dev/null
