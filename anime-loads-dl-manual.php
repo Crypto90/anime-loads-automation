@@ -261,10 +261,11 @@ if(($user == $WEB_USER && $pass == $WEB_PASSWORD) || ($userGET == $WEB_USER && $
     echo '<div id="manualOutput">';
     if ($running == false && isset($_POST['animeTitel']) && $_POST['animeTitel'] != '')
     {
-    	$animeTitel = $_POST['animeTitel'];
-    	$animeTitel = preg_replace('/[^A-Za-z0-9]/', ' ', $animeTitel);
-    	$languageselect = $_POST['languageselect'];
-    	$resolutionselect = $_POST['resolutionselect'];
+	$animeTitel = $_POST['animeTitel'];
+	$animeTitel = preg_replace('/[^A-Za-z0-9]/', ' ', $animeTitel);
+	$animeTitel = trim($animeTitel);
+	$languageselect = $_POST['languageselect'];
+	$resolutionselect = $_POST['resolutionselect'];
     	
     	$forceAnimeResult = ' 0';
     	if (isset($_POST['forceAnimeResult']) && $_POST['forceAnimeResult'] != '') {
