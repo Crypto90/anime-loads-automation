@@ -28,7 +28,7 @@ OVERSEER_URL = "YOUR_OVERSEERR_URL_HERE"
 one_day_ago = time.time() - (7 * 86400)
 no_releases_log_file = "no_releases_found_log.txt"
 if os.stat(no_releases_log_file).st_ctime <= one_day_ago:
-    if os.path.isfile(path):
+    if os.path.isfile(no_releases_log_file):
         try:
             print("Deleted", no_releases_log_file, "because creation date is older than 24 hours.")
             os.remove(no_releases_log_file)
